@@ -1,0 +1,130 @@
+{
+    "level-search-bg": {
+        "r": 22,
+        "g": 22,
+        "b": 22
+    },
+    "level-search-bar-bg": {
+        "r": 10,
+        "g": 10,
+        "b": 10
+    },
+    "quick-search-bg": {
+        "r": 22,
+        "g": 22,
+        "b": 22
+    },
+    "difficulty-filters-bg": {
+        "r": 22,
+        "g": 22,
+        "b": 22
+    },
+    "length-filters-bg": {
+        "r": 22,
+        "g": 22,
+        "b": 22
+    },
+    "comment-cell-odd": {
+        "r": 34,
+        "g": 34,
+        "b": 34
+    },
+    "comment-cell-even": {
+        "r": 51,
+        "g": 51,
+        "b": 51
+    },
+    "comment-cell-small-odd": {
+        "r": 34,
+        "g": 34,
+        "b": 34
+    },
+    "comment-cell-small-even": {
+        "r": 51,
+        "g": 51,
+        "b": 51
+    },
+    "comment-cell-bg-odd": {
+        "r": 36,
+        "g": 36,
+        "b": 36
+    },
+    "comment-cell-bg-even": {
+        "r": 45,
+        "g": 45,
+        "b": 45
+    },
+    "info-description-bg": {
+        "r": 31,
+        "g": 31,
+        "b": 31
+    },
+    "edit-description-bg": {
+        "r": 31,
+        "g": 31,
+        "b": 31
+    },
+    "edit-name-bg": {
+        "r": 31,
+        "g": 31,
+        "b": 31
+    },
+    "comment-list-outline-brown": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+    },
+    "comment-list-outline-blue": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+    },
+    "chest-opened-overlay": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+    },
+    "list-layer-bg": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 20
+    },
+    "list-cell-odd": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 50
+    },
+    "list-cell-even": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 90
+    },
+    "list-cell-selected": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 200
+    },
+    "main-menu-bg": {
+        "r": 30,
+        "g": 30,
+        "b": 30,
+        "a": 255
+    },
+    "main-menu-ground": {
+        "r": 22,
+        "g": 22,
+        "b": 22,
+        "a": 255
+    },
+    "comment-list-layer-bg": {
+        "r": 12,
+        "g": 12,
+        "b": 12,
+        "a": 255
+    }
+}

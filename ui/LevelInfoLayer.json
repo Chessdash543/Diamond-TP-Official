@@ -1,0 +1,21 @@
+{
+    "children":{
+        "new":[
+            {
+                "type":"CCLabelBMFont",
+                "id":"mini-text",
+                "attributes": {
+                        "font": "bigFont.fnt",
+                        "text": "Diamond TP v4.0.8 by ChessDash543 (Ryan Vitor)",
+                        "scale": 0.2,
+                        "position": {
+                        "anchor": "top-center",
+                        "x": 0,
+                        "y": -5
+                    },
+                    "rotate":-15
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>hjfod.gdshare/export.png</key>
+		<dict>
+			<key>spriteOffset</key>
+			<string>{0,0}</string>
+			<key>spriteSize</key>
+			<string>{179,183}</string>
+			<key>spriteSourceSize</key>
+			<string>{179,183}</string>
+			<key>textureRect</key>
+			<string>{{0,0},{179,183}}</string>
+			<key>textureRotated</key>
+			<true/>
+		</dict>
+		<key>hjfod.gdshare/file.png</key>
+		<dict>
+			<key>spriteOffset</key>
+			<string>{0,0}</string>
+			<key>spriteSize</key>
+			<string>{188,236}</string>
+			<key>spriteSourceSize</key>
+			<string>{188,236}</string>
+			<key>textureRect</key>
+			<string>{{0,181},{188,236}}</string>
+			<key>textureRotated</key>
+			<true/>
+		</dict>
+		<key>hjfod.gdshare/import.png</key>
+		<dict>
+			<key>spriteOffset</key>
+			<string>{0,0}</string>
+			<key>spriteSize</key>
+			<string>{210,213}</string>
+			<key>spriteSourceSize</key>
+			<string>{210,213}</string>
+			<key>textureRect</key>
+			<string>{{0,371},{210,213}}</string>
+			<key>textureRotated</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>3</integer>
+		<key>realTextureFileName</key>
+		<string>hjfod.gdshare/GDShare-uhd.png</string>
+		<key>size</key>
+		<string>{236,581}</string>
+		<key>textureFileName</key>
+		<string>hjfod.gdshare/GDShare-uhd.png</string>
+	</dict>
+</dict>
+</plist>

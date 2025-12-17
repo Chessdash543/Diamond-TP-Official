@@ -1,0 +1,133 @@
+{
+    "children": {
+        "new": [
+            {
+                "type": "CCSprite",
+                "id": "logo_main",
+                "attributes": {
+                    "sprite": "ui/itsryan.diamond/pack.png",
+                    "position": {
+                        "anchor": "center",
+                        "x": 0,
+                        "y": 10
+                    },
+                    "scale": 1.2
+                }
+            },
+            {
+                "type": "CCSprite",
+                "id": "name-chessdash543_main",
+                "attributes": {
+                    "sprite": "ui/itsryan.diamond/chessdash543-nick.png",
+                    "position": {
+                        "anchor": "top-left",
+                        "x": 80,
+                        "y": -46
+                    },
+                    "scale": 0.8
+                }
+            }
+        ],
+        "node": {
+            "bg-texture": {
+                "attributes": {
+                    "sprite": "ui/itsryan.diamond/GJ_gradientBG.png",
+                    "color": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255
+                    },
+                    "scale":1.35
+                }
+            },
+            "cocos2d-logo": {
+                "attributes": {
+                    "visible": false
+                }
+            },
+            "fmod-logo": {
+                "attributes": {
+                    "visible": false
+                }
+            },
+            "gd-logo": {
+                "attributes": {
+                    "sprite": "Danz_asset/gd_logo.png",
+                    "position": {
+                        "anchor": "top-right",
+                        "x": -150,
+                        "y": -25
+                    },
+                    "scale": 0.6
+                }
+            },
+            "geode-small-label": {
+                "attributes": {
+                    "font": "bigFont.fnt",
+                    "position": {
+                        "anchor": "top-right",
+                        "x": -100,
+                        "y": -50
+                    }
+                }
+            },
+            "geode-small-label-2": {
+                "attributes": {
+                    "font": "bigFont.fnt",
+                    "position": {
+                        "anchor": "top-right",
+                        "x": -100,
+                        "y": -70
+                    }
+                }
+            },
+            "robtop-logo": {
+                "attributes": {
+                    "position": {
+                        "anchor": "top-left",
+                        "x": 50,
+                        "y": -21
+                    },
+                    "scale": 0.6
+                }
+            },
+            "loading-text": {
+                "attributes": {
+                    "font": "bigFont.fnt",
+                    "position": {
+                        "anchor": "right-center",
+                        "x": 0,
+                        "y": 20
+                    }
+                }
+            },
+            "progress-slider": {
+                "attributes": {
+                    "opacity": 0,
+                    "scale": {
+                        "fit": {
+                            "relative": "screen-width",
+                            "multiplier": 1.2
+                        }
+                    },
+                    "position": {
+                        "anchor": "bottom-center",
+                        "x": 0,
+                        "y": -2
+                    }
+                },
+                "children": {
+                    "index": [
+                        {
+                            "type": "CCSprite",
+                            "index": 0,
+                            "attributes": {
+                                "sprite": "ui/itsryan.diamond/loading.png"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

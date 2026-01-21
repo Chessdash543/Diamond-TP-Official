@@ -2206,19 +2206,6 @@
                 }
             },
             {
-                "type":"CCSprite",
-                "id":"logo_diamond_btn_2",
-                "attributes":{
-                    "sprite":"ui/itsryan.diamond/diamond-logo.png",
-                    "scale":0.6,
-                    "position":{
-                        "anchor":"top-right",
-                        "x":-140,
-                        "y":-85
-                    }
-                }
-            },
-            {
                 "type":"CCLabelBMFont",
                 "id":"mini-text",
                 "attributes": {
@@ -2295,6 +2282,25 @@
                             "visible": false
                         }
                     }
+                }
+            },
+            "main-title":{
+                "children":{
+                    "new":[
+                        {
+                            "type":"CCSprite",
+                            "id":"diamond-name",
+                            "attributes":{
+                                "sprite":"ui/itsryan.diamond/Diamondtp.png",
+                                "scale":0.7,
+                                "position":{
+                                    "anchor":"bottom-right",
+                                    "x":-70,
+                                    "y":5
+                                }
+                            }
+                        }
+                    ]
                 }
             }
         }

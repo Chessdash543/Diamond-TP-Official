@@ -2257,9 +2257,213 @@
                         }
                     ]
                 }
+            },
+            {
+                "type":"CCMenu",
+                "id":"main-menu-diamond",
+                "attributes":{
+                    "ignore-anchor-pos":false
+                },
+                "children":{
+                    "new":[
+                        {
+                            "type":"CCMenuItemSpriteExtra",
+                            "id":"main-levels",
+                            "attributes":{
+                                "sprite":"ui/itsryan.diamond/button-large.png",
+                                "scale":2,
+                                "base-scale":2,
+                                "position":{
+                                    "anchor":"center",
+                                    "x":0,
+                                    "y":30
+                                }
+                            },
+                            "children":{
+                                "new":[
+                                    {
+                                        "type":"CCLabelBMFont",
+                                        "id":"play-text",
+                                        "attributes": {
+                                                "font": "bigFont.fnt",
+                                                "text": "Single Player",
+                                                "scale": 0.25,
+                                                "position": {
+                                                "anchor": "center",
+                                                "x": 0,
+                                                "y": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "event":{
+                                "on-hover":{
+                                    "attributes":{
+                                        "actions":[
+                                            {
+                                                "type": "ScaleTo",
+                                                "value": 2.4,
+                                                "duration": 0.1
+                                            }
+                                        ]
+                                    }
+                                },
+                                "on-exit":{
+                                    "attributes":{
+                                        "actions":[
+                                            {
+                                                "type": "ScaleTo",
+                                                "value": 2,
+                                                "duration": 0.1
+                                            }
+                                        ]
+                                    }
+                                },
+                                "on-activate":{
+                                    "attributes":{
+                                        "callback":{
+                                            "class": "MenuLayer",
+                                            "method":"onPlay"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type":"CCMenuItemSpriteExtra",
+                            "id":"online-levels",
+                            "attributes":{
+                                "sprite":"ui/itsryan.diamond/button-large.png",
+                                "scale":2,
+                                "base-scale":2,
+                                "position":{
+                                    "anchor":"center",
+                                    "x":0,
+                                    "y":-5
+                                }
+                            },
+                            "children":{
+                                "new":[
+                                    {
+                                        "type":"CCLabelBMFont",
+                                        "id":"play-text",
+                                        "attributes": {
+                                                "font": "bigFont.fnt",
+                                                "text": "Multiplayer",
+                                                "scale": 0.25,
+                                                "position": {
+                                                "anchor": "center",
+                                                "x": 0,
+                                                "y": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "event":{
+                                "on-hover":{
+                                    "attributes":{
+                                        "actions":[
+                                            {
+                                                "type": "ScaleTo",
+                                                "value": 2.4,
+                                                "duration": 0.1
+                                            }
+                                        ]
+                                    }
+                                },
+                                "on-exit":{
+                                    "attributes":{
+                                        "actions":[
+                                            {
+                                                "type": "ScaleTo",
+                                                "value": 2,
+                                                "duration": 0.1
+                                            }
+                                        ]
+                                    }
+                                },
+                                "on-activate":{
+                                    "attributes":{
+                                        "callback":{
+                                            "class": "MenuLayer",
+                                            "method":"onCreator"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type":"CCMenuItemSpriteExtra",
+                            "id":"icons",
+                            "attributes":{
+                                "sprite":"ui/itsryan.diamond/button-large.png",
+                                "scale":2,
+                                "base-scale":2,
+                                "position":{
+                                    "anchor":"center",
+                                    "x":0,
+                                    "y":-40
+                                }
+                            },
+                            "children":{
+                                "new":[
+                                    {
+                                        "type":"CCLabelBMFont",
+                                        "id":"play-text",
+                                        "attributes": {
+                                                "font": "bigFont.fnt",
+                                                "text": "Icons",
+                                                "scale": 0.25,
+                                                "position": {
+                                                "anchor": "center",
+                                                "x": 0,
+                                                "y": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "event":{
+                                "on-hover":{
+                                    "attributes":{
+                                        "actions":[
+                                            {
+                                                "type": "ScaleTo",
+                                                "value": 2.4,
+                                                "duration": 0.1
+                                            }
+                                        ]
+                                    }
+                                },
+                                "on-exit":{
+                                    "attributes":{
+                                        "actions":[
+                                            {
+                                                "type": "ScaleTo",
+                                                "value": 2,
+                                                "duration": 0.1
+                                            }
+                                        ]
+                                    }
+                                },
+                                "on-activate":{
+                                    "attributes":{
+                                        "callback":{
+                                            "class": "MenuLayer",
+                                            "method":"onGarage"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "node": {
+
             "main-menu-bg": {
                 "children": {
                     "new": [
@@ -2282,6 +2486,11 @@
                             "visible": false
                         }
                     }
+                }
+            },
+            "main-menu": {
+                "attributes": {
+                    "visible": false
                 }
             },
             "main-title":{

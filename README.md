@@ -1,2 +1,2 @@
 # Diamond TP Official
-Only a Texture Pack
+A texture pack with a neon gradient, made by ChessDash543 and TNTMAN.
